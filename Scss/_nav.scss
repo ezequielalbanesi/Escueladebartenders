@@ -1,0 +1,69 @@
+nav{
+	background-color: $bg-dark;
+}
+
+.Logo  {
+	display: $d-flex;
+	justify-content: $Centrar-contenido;
+}
+
+.logo__Nombre{
+	font-family: $fontMain;
+	color: $text-color;
+	font-size: $titulo-size;
+	margin-bottom:($Margin-Bottom*3) ;
+	margin-top: ($Margin-Top*1.5);
+}
+@media (min-width: 768px){
+	.logo__Nombre{
+		font-size: $titulo-sizeM;
+	}
+}
+@media (min-width: 1024px){
+	.logo__Nombre{
+		font-size: $titulo-sizeL;
+	}
+}
+
+.logo__Nombre--Bold{
+	font-weight: $LetraGruesa;
+}
+ul li a{
+	text-decoration: $text-decoration;
+	font-size: $TamañoMenu;
+	margin-right: $Margin-menu;
+
+}
+@media (min-width: 1024px){
+	ul li a{
+		font-size: $TamañoMenupc;
+	}
+}
+.navegador__Enlace {		 
+	 background: linear-gradient(currentColor, currentColor);
+   	 background-position: 0% 100%;
+     background-repeat: no-repeat;
+     background-size: 0% 2px;
+     transition: background-size .3s;
+     color: $text-color;
+}
+
+.Foto{
+	height: 30rem;
+}
+
+@media (min-width: 768px){
+	.Foto{
+		height: 45rem;
+	}
+}
+
+@media (min-width: 1024px){
+	.Foto{
+		height: $Imagen-Carousel;
+	}
+}
+a:hover, a:focus {
+    background-size: 80% 2px;
+}
+

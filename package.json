@@ -1,0 +1,17 @@
+{
+  "name": "escueladebartenders",
+  "version": "1.0.0",
+  "description": "Escuela de bartenders es la escuela de mayor reconocimiento en argentina. Cuenta con mas de 15 años de trayectoria y mas de 25.000 egresados que la avalan.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/Main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Ezequiel Albanesi",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}

@@ -1,0 +1,203 @@
+body{
+	background: $gradiant;
+}
+.breadcrumb__Texto{
+	font-size: ($p-size);
+}
+.breadcrumb{
+	margin-left: $Margin;
+}
+.Entrada{
+	display: $d-flex;
+	flex-direction: column;
+	align-items: $Centrar-contenido;
+	font-size: $blog-size;
+	color: $blog-color;
+}
+.entrada__Contenido {
+	font-family: $FontParrafo;
+	font-size: $blog-size;
+	color: $blog-color;
+	margin: $MarginParrafo;
+	line-height: $line-height;
+}
+.btn-lg {
+	height:$botonHeight;
+	width:$botonwidth;
+	margin-bottom: $Margin-Bottom;
+}
+.botonBlog{
+	display: $d-flex;
+	justify-content: $Centrar-contenido;
+}
+@media (min-width: 1024px){
+	.botonBlog{
+		display: inline-block;
+		margin-left: ($Margin * 2);
+	}
+}
+.subtituloEntradas{
+	font-size: $h4-size;
+	color: $blog-color;
+}
+.tituloEntrada{
+	text-align: $text-align;
+	margin-top: $Margin;
+	margin-Bottom: $Margin-Bottom;
+	color: $blog-color;
+	font-family: $fontMain;
+	font-size:$h2-size;
+	font-weight: $LetraGruesa;
+}
+.entrada__Imagen--Foto{
+	max-width: 95%;
+	padding-bottom: $PaddingMedia;
+}
+.entrada__Imagen--Contenedor{
+	display: $d-flex;
+	justify-content: $Centrar-contenido;
+}
+.tituloBlog{
+	text-align: $text-align;
+	margin-top: $Margin;
+	margin-Bottom: ($Margin-Bottom * 3);
+	color: $blog-color;
+	font-family: $fontMain;
+	font-size:$h2-size;
+	font-weight: $LetraGruesa;
+}
+.Divisor {
+	color: white;
+}
+
+.Nosotros{
+	display: $d-flex;
+	align-items: $Centrar-contenido;
+	margin: $NoMargin;
+}
+
+.nosotros__titulo{
+	text-align: $text-align;
+	margin-top: $Margin;
+	margin-Bottom: ($Margin-Bottom * 3);
+	color: $blog-color;
+	font-family: $fontMain;
+	font-size:$h2-size;
+	font-weight: $LetraGruesa;
+}
+.nosotros__Contenido{
+	max-width: 95%;
+	font-family: $fontMain;
+	font-size: ($p-size+ 0.4rem);
+	color: $blog-color;
+	padding-bottom: ($PaddingParrafo/2);
+	line-height: $line-height;
+}
+@media (min-width: 1024px){
+	.nosotros__Contenido {
+		padding-bottom: $PaddingParrafo;
+	}
+}
+.nosotros__Imagen--Contenedor{
+	display: $d-flex;
+	justify-content: $Centrar-contenido;
+}
+.nosotros__Imagen--Foto{
+	max-width: 95%;
+	padding-bottom: $PaddingMedia;
+}
+.btn-success:hover {
+    cursor: pointer;
+    transform: translate(5px,5px);
+}
+
+.boton{
+	margin-left: 0rem;
+}
+.row{
+	margin: 0rem;
+}
+label{
+		font-weight: $LetraGruesa;
+}
+.curso__Titulo{
+	font-family: $fontMain;
+	color: $blog-color;	
+	font-weight: $LetraGruesa;
+	font-size:$h4-size;
+}
+.curso__Contenido{
+	font-family: $fontMain;
+	font-size: $p-size;
+	color: $blog-color;
+	font-weight: $LetraGruesa;
+}
+.boton__curso:hover{
+	cursor: pointer;
+    transform: translate(5px,5px);
+}
+.formulario__Imagen{
+	background-image: url(../img/contacto2.jpg);
+	max-width: 95%;
+	height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center ;
+    margin: 0 auto;
+    border: solid 1px black;
+}
+
+.bg-Image{
+	background-image:url(../img/404.jpg);
+	height:60rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center right ;
+}
+
+.formulario__Contacto {
+  background-color: #7F99A4;
+  margin: -1rem auto 0 auto;
+  width: 75%;
+  font-size: 1.6rem;
+  border-radius: 1.5rem;
+  border: solid 1px black;
+  padding: 3rem;
+  text-align: Center;
+  margin-bottom: 3rem; }
+
+.formulario__Contacto--Campo {
+  padding-right: 20rem;
+  margin-bottom: 1.5rem;
+  max-width: 50%; 
+	border: none;}
+
+.formulario__Contacto--textarea {
+  height: 10rem;
+  max-width: 90%;
+  }
+
+@media (min-width: 1024px){
+	.formulario__Contacto--textarea {
+		margin-left: 6rem;
+	}
+}
+.error404{
+	display: $d-flex; 
+	flex-direction: column;
+}
+
+.error404__Titulo--Enlace{
+	font-size: 2.5rem;
+	color: $blog-color;
+	font-weight: $LetraGruesa;
+}
+.error404__Titulo{
+	font-size: 4rem;
+	color: $blog-color;
+	font-weight: $LetraGruesa;
+	padding-top:5rem
+}
+
+
+

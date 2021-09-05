@@ -1,0 +1,37 @@
+$MarginParrafo: 2rem;
+$Margin:2rem;
+$NoMargin:0rem;
+$PaddingMedia: 2rem;
+$PaddingParrafo:1rem;
+$Padding-top: 2rem;
+$Padding-bottom:2rem;
+
+$bg-dark: black;
+$bg-light: white;
+
+$Margin-menu: 2rem;
+$Margin-Bottom: 1rem;
+$Margin-Top: 2rem;
+
+$botonwidth: 20rem;
+$botonHeight:3rem;
+$Botonmargin:3rem;
+
+$Imagen-Carousel:60rem; 
+
+$Centrar-contenido: Center; 
+
+$theme-colors: (
+  "primary":    #2B813C,
+  "secondary":  #DCD42C,
+  "success":    #072442,
+  "warning":    #4D4F51,
+  "info":       #5C6C73,
+  "danger":     #E51200,
+  "light":      #FFFFFF,
+  "dark":       #000000,
+) !default;
+
+$d-flex: flex;
+
+$gradiant:linear-gradient(To top,#79797E, #344E59);

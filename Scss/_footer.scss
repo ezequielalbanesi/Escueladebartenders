@@ -1,0 +1,39 @@
+footer{
+background-color: $bg-dark;
+}
+.form-label{
+	font-family: $fontMain;
+	color: $text-color;
+	font-size:($h4-size - 1rem);
+}
+
+.titulo {
+	display: $d-flex;
+	justify-content: $Centrar-contenido;
+	font-family: $fontMain;
+	padding-top:$Padding-top;
+	padding-bottom:$Padding-bottom;
+}
+.logosRedes{
+	display: $d-flex;
+	justify-content: $Centrar-contenido;
+	padding-bottom:$Padding-bottom;
+}
+.redesSociales{
+	height: 4rem;
+	width: 6rem;
+	display: $d-flex;
+}
+.newsletter{
+	color: $text-color;
+	font-size: $p-size;
+	padding-top: $PaddingParrafo;
+}
+.Copyright {
+	padding-top:($Padding-top*2);
+	padding-bottom:($Padding-bottom*2);
+	background-color:$bg-light;
+}
+.copyright__Texto {
+font-weight: $LetraGruesa;
+}
